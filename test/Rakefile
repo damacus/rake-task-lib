@@ -1,0 +1,4 @@
+require_relative '../lib/tasks/rake_task'
+
+Docker::RakeTask.new
+Terraform::RakeTask.new
